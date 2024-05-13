@@ -1,0 +1,28 @@
+{
+  "name": "unnamedmodsite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start-backend": "node build/backend/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/multipart": "^8.2.0",
+    "@fastify/rate-limit": "^9.1.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/uuid": "^9.0.8",
+    "bcrypt": "^5.1.1",
+    "fastify": "^4.27.0",
+    "mongodb": "^6.6.1",
+    "redis": "^4.6.13",
+    "typescript": "^5.4.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11"
+  }
+}
